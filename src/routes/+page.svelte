@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  title="Let your front office run itself"
+  subtitle="Commerce Systems automates everyday work across sales, support, operations, and finance—so your wholesale business runs faster with fewer headaches."
+  centered={false}
+  customers={[
+    {
+      name: 'Mark Ramsey',
+      position: 'director of operations, Artisan Beverage Distributors',
+      imageSrc: '/generated/image-a-male-director-mark-ramsey-in-a-beverag.webp'
+    },
+    {
+      name: 'Lisa Chen',
+      position: 'sales manager, Pacific Pet Supply',
+      imageSrc: '/generated/image-a-female-sales-manager-lisa-chen-in-a-pe.webp'
+    },
+    {
+      name: 'Carlos Rivera',
+      position: 'VP of finance, Horizon Electronics Wholesale',
+      imageSrc: '/generated/image-a-male-vp-of-finance-carlos-rivera-in-an.webp'
+    },
+    {
+      name: 'Sarah Jennings',
+      position: 'head of customer support, Willow Grove Home Furnishings',
+      imageSrc: '/generated/image-a-female-head-of-customer-support-sarah-.webp'
+    },
+    {
+      name: 'Dwayne Mitchell',
+      position: 'operations lead, Triangle Apparel Group',
+      imageSrc: '/generated/image-a-male-operations-lead-dwayne-mitchell-i.webp'
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/unfi.com',
+		'https://logo.clearbit.com/kehe.com',
+		'https://logo.clearbit.com/genco.com',
+		'https://logo.clearbit.com/rexelusa.com'
+	]}
+/>
 
 <Summary
 	generating
