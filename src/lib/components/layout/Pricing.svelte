@@ -35,8 +35,8 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
+		title = "Plans and pricing",
+		subtitle = "Choose the tier that fits your current size and needs. We grow with you—from one workflow to full departmental automation.",
 		tierNames = ["Starter", "Pro", "Enterprise"],
 		features = [
 			{

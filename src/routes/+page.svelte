@@ -53,107 +53,115 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="AI agents for wholesale front offices"
+	text="Commerce Systems builds AI agents that automate sales, operations, support, and finance workflows for wholesale manufacturers and distributors. Free your team from manual busywork and reduce operational costs—no extra hiring required."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Martin Rozman",
+			position: "director of operations",
+			company: "Elemental Supply",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"We got 600 hours a month back. It’s like giving each person on my team 20 hours a week to focus on high-value work again.",
 			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-male-operations-director-in-a-bustling.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Lena Kapur",
+			position: "vp of finance",
+			company: "Delco Foods",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"We used to spend days cleaning up buyer POs. One missed digit could affect hundreds of units. Commerce catches mistakes before they hit the ERP—and before they hit our margins.",
 			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-female-finance-vice-president-in-a-con.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Robert Chi",
+			position: "head of customer experience",
+			company: "Galaxy Apparel Collective",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"We reduced support headcount by 40%—without slowing responses. The agent handles the repetitive stuff, so our human team handles the real edge cases.",
 			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-male-customer-support-leader-in-an-ope.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built to automate the wholesale front office"
+	subtitle="Six ways Commerce Systems delivers value for manufacturers and distributors"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "AI agents for every department",
+			description: "Automate sales, support, ops, and finance tasks with purpose-built AI that fits your existing business." 
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Fast setup, zero technical lift",
+			description: "Go live in one week, no internal engineers or developers needed—we handle setup for you." 
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Works with your legacy systems",
+			description: "Syncs directly to SAP, Oracle, Netsuite, Infor, and spreadsheets—no rip-and-replace required." 
+		},
+		{
+			title: "Turns emails into purchase orders",
+			description: "Converts messy buyer requests into accurate POs instantly, saving hours of copying and pasting." 
+		},
+		{
+			title: "Real workforce savings",
+			description: "Cut support costs by up to 80%—just like our customer Silverpoint Technologies." 
+		},
+		{
+			title: "Measurable productivity gains",
+			description: "Teams get daily hours back with automated processes—so your staff focuses on what moves the business forward." 
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "AI-powered customer support",
+			description: "Handle hundreds of order status requests, returns, and product questions automatically. Commerce Systems' AI understands your sales history and ERP data to resolve repetitive support tickets—so your staff can focus on high-value conversations.",
+			image: "/generated/image-a-bustling-customer-support-team-in-a-mo.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/ai-customer-support",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Automated off-price sales",
+			description: "Stop excess inventory from eating into margins. Our AI agents run clearance pricing checks, review aging stock, and generate verified bulk offers—getting slow-moving goods out the door before they impact your bottom line.",
+			image: "/generated/image-a-wholesale-operations-manager-in-a-live.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/automated-off-price-sales",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Error-free purchase orders",
+			description: "Transform messy buyer emails into accurate, ERP-ready purchase orders. Commerce Systems' AI parses requests, validates details, and submits compliant POs—reducing costly mistakes and manual rework for your finance team.",
+			image: "/generated/image-a-finance-professional-in-a-wholesale-co.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/error-free-purchase-orders",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Let your front office run itself"
+  subtitle="Cut costs, boost speed—all without adding headcount"
+  description="Commerce Systems builds AI agents for wholesale manufacturers and distributors, replacing hours of manual work with minutes of automation. Plug in pilots, fast ROI, and no need to overhaul your systems. Start with a pilot—schedule your demo today."
+  imageSrc="/generated/image-a-cheerful-wholesale-manufacturing-execu.webp"
+  callsToAction=[
+    { href: '/contact', label: 'Schedule a demo', variant: 'primary' },
+    { href: '/about', label: 'How it works', variant: 'secondary' }
+  ]
+/>

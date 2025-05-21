@@ -10,7 +10,32 @@
 	};
 
 	// Props
-	const { values = [] }: { values: Value[] } = $props();
+	const { values = [
+  {
+    title: 'Impact you see, not just ship',
+    description: 'Every project touches real customer operations—days, not quarters, from code to results.'
+  },
+  {
+    title: 'Small team, big reach',
+    description: 'We operate as a tight, high-output group—collaborating daily without layers. Everyone’s voice matters.'
+  },
+  {
+    title: 'Curiosity for how things work',
+    description: 'We’re relentless about understanding the details—from ERP workflows to why customers call support.'
+  },
+  {
+    title: 'Pragmatism over perfection',
+    description: 'We value outcomes. Solutions are chosen for what gets the job done, not what looks fanciest.'
+  },
+  {
+    title: 'Own your craft, trust your team',
+    description: 'Autonomy and trust are nonnegotiable. We expect initiative and transparency from everyone.'
+  },
+  {
+    title: 'Fixing overlooked problems',
+    description: 'We’re here for the big, unglamorous challenges dropped by everyone else—the backbone of the economy.'
+  }
+]: { values: Value[] } = $props();
 
 	let cards: HTMLElement[] = $state([]);
 
@@ -38,7 +63,7 @@
 	<div
 		class="section-py section-px container mx-auto grid gap-8 [--gap:--spacing(8)] [--radius:var(--radius-2xl)]"
 	>
-		<SectionHeader title="Our culture." subtitle="The values that guide everything we do" />
+		<SectionHeader title="Built for impact, not hype." subtitle="What it means to work at Commerce Systems" />
 
 		<div
 			class="grid gap-(--gap)"

@@ -10,34 +10,45 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: 'Impact you see, not just ship',
+    description: 'Every project touches real customer operations—days, not quarters, from code to results.'
+  },
+  {
+    title: 'Small team, big reach',
+    description: 'We operate as a tight, high-output group—collaborating daily without layers. Everyone’s voice matters.'
+  },
+  {
+    title: 'Curiosity for how things work',
+    description: 'We’re relentless about understanding the details—from ERP workflows to why customers call support.'
+  },
+  {
+    title: 'Pragmatism over perfection',
+    description: 'We value outcomes. Solutions are chosen for what gets the job done, not what looks fanciest.'
+  },
+  {
+    title: 'Own your craft, trust your team',
+    description: 'Autonomy and trust are nonnegotiable. We expect initiative and transparency from everyone.'
+  },
+  {
+    title: 'Fixing overlooked problems',
+    description: 'We’re here for the big, unglamorous challenges dropped by everyone else—the backbone of the economy.'
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="Transforming wholesale with AI agents"
+	subtitle="Automating front-office work so your team can do more"
+	imageSrc="/mockups/airport-screen-1747848616457.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"For most wholesale manufacturers and distributors, the front office is running on duct tape. Teams are stuck forwarding emails, downloading spreadsheets, and poking around outdated ERPs just to keep basic operations afloat. Buying teams are getting more demanding, costs are rising, and the work keeps piling up. Executives know things need to change, but most mid-market companies don’t have a deep bench of engineers or data analysts to fix it.",
+		"Joe Betesh and Aaron Shakib saw this all too clearly. Joe comes from four generations of retail, ran strategy and operations at OpenStore, and worked with dozens of brands still held back by manual workflows. Aaron built demand planning tools and worked on distributed systems at Hubspot. They kept hitting the same wall: front-office teams were overextended, disconnected from their systems, and drowning in busywork—because tools meant for other industries didn’t fit wholesale.",
+		"That’s why they started Commerce Systems. The company builds AI agents designed for wholesalers—starting with customer service, operations, sales, and finance. Within five months, the solution helped a customer cut 80% of support work, signed hundred-thousand-dollar contracts, and proved that fast, lean automation is possible even without massive IT departments. The goal is simple: give frontline teams better tools, and give busy companies back their time."
 	]}
 />
 
@@ -46,32 +57,23 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our team."
+  subtitle="Meet our founders."
+  stakeholders={[
+    {
+      name: "Joe Betesh",
+      position: "Co-founder & CEO",
+      bio: "Data science and finance background, product designer, fourth-generation retailer, former head of ops at OpenStore.",
+      image: "/generated/image-a-headshot-of-a-middle-aged-man-with-a-d.webp"
+    },
+    {
+      name: "Aaron Shakib",
+      position: "Co-founder & CTO",
+      bio: "Distributed systems engineer, ex-Hubspot and OpenStore, built demand and inventory platforms.",
+      image: "/generated/image-a-headshot-of-a-young-man-with-a-direct-.webp"
+    }
+  ]}
 />
 
 <StakeholderGrid
@@ -96,7 +98,15 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Build software where every launch matters"
+  subtitle="Join the team at Commerce Systems"
+  description="We’re pragmatic engineers, product thinkers, and operators fixing the $600B problem of front-office manual work in wholesale. Want to help? Bring your curiosity, drive, and desire to make things truly work—for real customers. Not here for startup theater? Neither are we. Ready to work where outcomes come first? Email us at jobs@commercesystems.com."
+  imageSrc="/uploaded/happy-diverse-team-wholesale.jpg"
+  callsToAction={[
+    {
+      href: 'mailto:jobs@commercesystems.com',
+      label: 'Email us to apply',
+      variant: 'primary',
+    },
+  ]}
 />
